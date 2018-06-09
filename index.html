@@ -11,49 +11,51 @@
           ТЕХНОМАРТ
         </a>
         <input type="text" class="search">
+        <div class="wrapper">
         <a href="#" class="link">Закладки:0</a>
         <a href="#" class="link">Корзина</a>
         <a href="#" class="link green">Оформить заказ</a>
+        </div>
       </div>
-      <div class="content">
+      <div class="general">
         <p>Интернет-магазин
           строительных материалов
           и инструментов для ремонта</p>
         <div class="wrapper">
-          <input type="text" class="phone" id="phone">
-          <label for="phone">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</label>
+          <p class="phone"></p>
+          <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         </div>
-        <a href="#" class="button">Войти</a>
-        <a href="#" class="button">Регистрация</a>
+        <a href="#">Войти</a>
+        <a href="#">Регистрация</a>
       </div>
 
       <nav class="nav">
-        <a href="#" class="item">Главная</a>
-        <a href="#" class="item">Компания</a>
-        <a href="#" class="item">Каталог</a>
-        <a href="#" class="item">Новости</a>
-        <a href="#" class="item">Спецпредложения</a>
-        <a href="#" class="item">Доставка</a>
-        <a href="#" class="item">Контакты</a>
+        <a href="#">Главная</a>
+        <a href="#">Компания</a>
+        <a href="#">Каталог</a>
+        <a href="#">Новости</a>
+        <a href="#">Спецпредложения</a>
+        <a href="#">Доставка</a>
+        <a href="#">Контакты</a>
       </nav>
     </header>
     <main class="main">
       <div class="categories">
-        <div class="row">
-          <a href="#" class="category new">
-            <p class="title">Материалы</p>
+        <div>
+          <a href="#" class="category new"></a>
+            <title class="title">Материалы</title>
             <p class="description">На любой вкус</p>
-          </a>
-          <a href="#" class="category">
-            <p class="title">Инструменты</p>
-            <p class="description">На все случаи</p>
-          </a>
-          <a href="#" class="category">
-            <p class="title">Техника</p>
-            <p class="description">Для стройки</p>
-          </a>
         </div>
-        <div class="row">
+        <div>
+          <a href="#" class="category"></a>
+            <title class="title">Инструменты</title>
+            <p class="description">На все случаи</p>
+        </div>
+        <div>
+          <a href="#" class="category"></a>
+            <title class="title">Техника</title>
+            <p class="description">Для стройки</p>
+        </div>
           <div class="slider">
             <div class="slide">
               <img src="img/slider1.jpg." alt="" class="banner">
@@ -63,7 +65,6 @@
               <a href="#" class="link">Открыть каталог</a>
             </div>
           </div>
-          <div class="col">
             <a href="#" class="category">
               <p class="title">Скидки 50%</p>
               <p class="description">На 350 товаров</p>
@@ -72,21 +73,19 @@
               <p class="title">Доставка</p>
               <p class="description">Бесплатно</p>
             </a>
-          </div>
         </div>
-      </div>
       <section class="section">
-        <header class="header">
+        <div class="popular">
           <h2 class="title">Популярные товары</h2>
           <a href="#" class="link">Все популярные товары</a>
-        </header>
+        </div>
         <div class="list">
-          <a class="item">
+          <div class="item">
             <img class="img" src="img/item1.jpg" alt="">
             <p class="name">Перфоратор BOSCH BFG 9000</p>
             <p class="price old">32500 Р.</p>
             <p class="price">25500 Р.</p>
-          </a>
+          </div>
           <a class="item">
             <img class="img" src="img/item2.jpg" alt="">
             <p class="name">Перфоратор BOSCH BFG 3000</p>
@@ -107,11 +106,11 @@
         </div>
       </section>
       <section class="section">
-        <header class="header">
-          <h2 class="title">Популярные товары</h2>
-          <a href="#" class="link">Все популярные товары</a>
-        </header>
-        <div class="list">
+        <div class="popdev">
+          <h2 class="title">Популярные производители</h2>
+          <a href="#" class="link">Все производители</a>
+        </div>
+        <div class="catalog">
           <a class="item">
             <img class="img" src="img/bosch.jpg" alt="">
           </a>
@@ -139,9 +138,9 @@
         </div>
       </section>
       <section class="section">
-        <p class="title">Сервисы</p>
-        <p class="description">Хороший интернет-магазин отличается от плохого не только ценами!
-          Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+        <title class="services">Сервисы</title>
+        <title class="description">Хороший интернет-магазин отличается от плохого не только ценами!
+          Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</title>
         <div class="wrapper">
           <div class="buttons">
             <a href="#" class="button">Доставка</a>
@@ -150,13 +149,13 @@
           </div>
           <div class="content">
             <p class="title big">Доставка</p>
-            <p class="description">Мы с удовольствием доставим ваш товар прямо<br>
+            <title class="description">Мы с удовольствием доставим ваш товар прямо<br>
               к вашему подъезду совершенно бесплатно!<br>
               Ведь мы неплохо заработаем,<br>
-              поднимая его на ваш этаж!</p>
+              поднимая его на ваш этаж!</title>
           </div>
           <div class="content">
-            <p class="title big">Гарантия</p>
+            <title class="garantue">Гарантия</title>
             <p class="description">
               Если купленный у нас товар поломается или заискрит,<br>
               а также в случае пожара, спровоцированного его возгаранием,<br>
@@ -190,7 +189,7 @@
         <div class="contacts">
           <p class="discription">Вы можете забрать товар сами,<br>заехав в наш офис</p>
           <img src="img/map.jpg" alt="карта" class="map">
-          <a href="#" class="way">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
+          <a href="#" class="way">заблудились? напишите нам!</a>
         </div>
       </section>
     </main>
