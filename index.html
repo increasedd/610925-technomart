@@ -189,7 +189,7 @@
         <div class="contacts">
           <p class="discription">Вы можете забрать товар сами,<br>заехав в наш офис</p>
           <img src="img/map.jpg" alt="карта" class="map">
-          <a href="#" class="way">заблудились? напишите нам!</a>
+          <button class="way">заблудились? напишите нам!</button>
         </div>
       </section>
     </main>
@@ -223,13 +223,30 @@
       <p class="developed">Разработано -<br><a href="#" class="developed">htmlacademy.ru</a> </p>
 
     </footer>
-
     <section class="modal modal_writeus">
     </section>
     <section class="modal modal_map">
       <h2 class="visually_hidden">Как до нас добраться</h2>
       <span class="modal_close">X</span>
     </section>
+  <section class="visually_hidden">
+    <form action="/" class="writeus" method="post">
+      <p class="writeus-item">
+        <label for="writeus-name">Ваше Имя:</label>
+      <input id="writeus-name" type="text" name="name" placeholder="Имя Фамилия">
+      </p>
+      <p class="writeus-item">
+        <label for="writeus-email">Ваш e-mail:</label>
+        <input id="writeus-email" type="text" name="email" placeholder="email@example.com">
+      </p>
+      <p class="writeus-item">
+        <label for="writeus-letter">
+          Текст письма:</label>
+        <input id="writeus-letter" type="text" name="letter" placeholder="В свободной форме">
+      </p>
+      <button class="button" type="submit">Отправить</button>
+    </form>
+  </section>
 
 
   </body>
