@@ -1,0 +1,12 @@
+.container {
+  width: 940px;
+}
+
+.catalog-item > .cover {
+  display: none;
+}
+
+.catalog-item:hover > .cover {
+  display: block;
+}
+
