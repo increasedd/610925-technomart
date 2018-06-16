@@ -14,11 +14,11 @@
       Техномарт
     </a>
       <label for="search_id">
-        <img src="img/svg/icon-search.svg" alt="поиск">
+        <img src="img/svg/icon-search.svg" alt="поиск">Поиск:
       </label>
       <input type="text" class="search" id="search_id">
       <a href="#" class="link">Закладки:0</a>
-      <a href="#" class="link">Корзина:10</a>
+      <a href="#" class="link link_cart">Корзина:10</a>
       <a href="#" class="link green">Оформить заказ</a>
     </div>
     </div>
@@ -28,8 +28,8 @@
       строительных материалов
       и инструментов для ремонта</p>
     <div class="wrapper">
-      <input type="text" class="phone" id="phone">
-      <label for="phone">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</label>
+      <span class="phone">+7 (812) 555-05-05</span>
+      <span>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
     </div>
     <div class="personal">
       <span class="personal">Равшан Джамшутович</span>
@@ -61,12 +61,15 @@
       <li class="way_item">Инструменты</li>
       <li class="way_item">Перфораторы</li>
     </ul>
-    <span class="punchers">Перфораторы</span>
+    <h2 class="punchers">Перфораторы</h2>
     <form class="filter" method="get">
       <fieldset>
       <span class="filter">Фильтр</span>
         <label for="price_id">Цена:</label>
       <input type="range" class="price" min="0" max="3000" id="price_id">
+        <span>0</span>
+        <span class="hyphen">-</span>
+        <span>30000</span>
       </fieldset>
       <fieldset>
         <legend>Производители:</legend>
@@ -93,27 +96,27 @@
     <section class="items">
       <span class="sorting">
         <span class="sort">Сортировка:</span>
-        <a href="#" class="sort">По цене</a>
+        <a href="#" class="sort sort_price">По цене</a>
         <a href="#" class="sort">По типу</a>
         <a href="#" class="sort">По функционалу</a>
-        <a href="#" class="arrow">up</a>
-        <a href="#" class="arrow">down</a>
+        <a href="#" class="arrow">вверх</a>
+        <a href="#" class="arrow">вниз</a>
       </span>
         <div class="catalog">
-          <div class="catalog-item">
+          <div class="catalog_item">
             <img src="img/item5.jpg" alt="">
             <h3>перфоратор bosch bfg 3000</h3>
-            <span class="price-old">22500</span>
-            <span class="price-new">15500</span>
+            <span class="price_old">22500</span>
+            <span class="price_new">15500</span>
             </div>
           </div>
-          <div class="catalog-item">
+          <div class="catalog_item">
             <img src="img/item6.jpg" alt="перфоратор bosch bfg 6000">
             <h3>перфоратор bosch bfg 6000</h3>
-            <span class="price-old">30500</span>
-            <span class="price-new">25500</span>
+            <span class="price_old">30500</span>
+            <span class="price_new">25500</span>
           </div>
-          <div class="catalog-item">
+          <div class="catalog_item">
             <img src="img/item5.jpg" alt="перфоратор bosch bfg 2000">
             <h3>перфоратор bosch bfg 2000</h3>
             <span class="price-new">12500</span>
@@ -124,36 +127,36 @@
               <span>2000</span>
             </div>
           </div>
-          <div class="catalog-item">
+          <div class="catalog_item">
             <img src="img/item5.jpg" alt="перфоратор bosch bfg 3000">
             <h3>перфоратор bosch bfg 3000</h3>
-            <span class="price-old">22500</span>
-            <span class="price-new">12500</span>
+            <span class="price_old">22500</span>
+            <span class="price_new">12500</span>
           </div>
-          <div class="catalog-item">
+          <div class="catalog_item">
             <img src="img/item6.jpg" alt="перфоратор bosch bfg 6000">
             <h3>перфоратор bosch bfg 6000</h3>
-            <span class="price-old">30500</span>
-            <span class="price-new">25500</span>
+            <span class="price_old">30500</span>
+            <span class="price_new">25500</span>
           </div>
-          <div class="catalog-item">
+          <div class="catalog_item">
             <img src="img/item5.jpg" alt="перфоратор bosch bfg 2000">
             <h3>перфоратор bosch bfg 2000</h3>
-            <span class="price-new">12500</span>
+            <span class="price_new">12500</span>
           </div>
-          <div class="catalog-item">
+          <div class="catalog_item">
             <img src="img/item5.jpg" alt="перфоратор bosch bfg 3000">
             <h3>перфоратор bosch bfg 3000</h3>
-            <span class="price-old">22500</span>
-            <span class="price-new">15500</span>
+            <span class="price_old">22500</span>
+            <span class="price_new">15500</span>
           </div>
-          <div class="catalog-item">
+          <div class="catalog_item">
             <img src="img/item6.jpg" alt="перфоратор bosch bfg 6000">
             <h3>перфоратор bosch bfg 6000</h3>
-            <span class="price-old">30500</span>
-            <span class="price-new">25500</span>
+            <span class="price_old">30500</span>
+            <span class="price_new">25500</span>
           </div>
-          <div class="catalog-item">
+          <div class="catalog_item">
             <img src="img/item5.jpg" alt="перфоратор bosch bfg 2000">
             <h3>перфоратор bosch bfg 2000</h3>
             <span class="price-new">12500</span>
@@ -168,7 +171,7 @@
     </div>
     <div class="container">
     <section class="description">
-      <span class="title">Пара слов о перфораторах</span>
+      <h2 class="title">Пара слов о перфораторах</h2>
       <span class="description">Перфоратор — универсальный строительный инструмент. Предназначен для
         сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические
         перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном
@@ -178,9 +181,7 @@
   </main>
   <div class="container">
   <footer class="footer">
-    <a href="/" class="logo">
-      Техномарт
-    </a>
+    <h2>Техномарт</h2>
     <nav class="nav">
       <a href="#" class="item">Компания</a>
       <a href="#" class="item">Новости</a>
@@ -188,22 +189,22 @@
       <a href="#" class="item">Доставка</a>
       <a href="#" class="item">Контакты</a>
     </nav>
-    <p class="contacts">
+    <span class="contacts">
       г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-      +7 (812) 555-05-55</p>
+      +7 (812) 555-05-55</span>
       <a href="#" class="category">Материалы</a>
       <a href="#" class="category">Техника</a>
       <a href="#" class="category">Инструмент</a>
       <a href="#" class="category">Спецпредложения</a>
-    <div class="rights">© 2010–2017 Компания «Техномарт»<br>Все права защищены
+    <div class="rights">© 2010–2017 Компания «Техномарт» Все права защищены
     </div>
     <div class="socials">
       <a href="#" class="social">Вконтакте</a>
       <a href="#" class="social">Фейсбук</a>
       <a href="#" class="social">Инстаграм</a>
     </div>
-    <span class="feedback">Обратная связь:<br><a href="#" class="feedback">mail@htmlacademy.ru</a></span>
-    <span class="developed">Разработано -<br><a href="#" class="developed">htmlacademy.ru</a> </span>
+    <span class="feedback">Обратная связь:<a href="#" class="feedback">mail@htmlacademy.ru</a></span>
+    <span class="developed">Разработано -<a href="#" class="developed">htmlacademy.ru</a> </span>
   </footer>
   </div>
   <section class="cart">

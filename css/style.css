@@ -1,5 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  color: #000000;
+  font-size: 13px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3  {
+  font-size: 18px;
+}
+
+.in, .register {
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
 .container {
   width: 940px;
+}
+
+.container .top{
+  background-color: #293449;
+  color: #e0e1e3;
+}
+
+.logo {
+  background-color: #ee3643;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #e0e1e3;
+}
+
+.green {
+  background-color: #63a63e;
+}
+
+.container .content .wrapper .personal .link {
+  background-color: #f4f7f9;
+}
+
+.link_cart {
+  background-color: #ee3643;
+}
+
+.content > p{
+  color: #ee3643;
+}
+
+.item {
+  width: 220px;
+  border: 1px solid #eaeaea;
+}
+
+.phone {
+  color: #e9292a;
+}
+
+.container nav {
+  background-color: #32425c;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container .punchers {
+  background-color: #f2f6f8;
+  color: #32425c;
+}
+
+.filter span:not(.hyphen) {
+  background-color: #f7f3ec;
+}
+
+
+.sort:not(:first-child) {
+  text-decoration: none;
+  color: #b6b3ae;
+}
+.sort_price:nth-child(2) {
+  color: #ee3643;
+}
+
+.catalog_item {
+  border: 1px solid #e5e5e5;
+  width: 220px;
+  height: 315px;
+}
+
+.price_old {
+  font-size: 17px;
+  color: #a9a9a9;
+  text-decoration: line-through;
+}
+
+.price_new {
+  font-size:  17px;
+  color: #ffffff;
+  background-color: #ee3643;
 }
 
 .catalog-item > .cover {
@@ -9,4 +117,75 @@
 .catalog-item:hover > .cover {
   display: block;
 }
+
+.cover button:first-child {
+  background-color: #63a63e;
+  color: #ffffff;
+}
+
+.cover button:nth-child(2) {
+  background-color: #ffffff;
+  border: 1px solid #63a63e;
+}
+
+.page:first-child {
+  background-color: #ee3643;
+}
+
+.page {
+  text-decoration: none;
+  color: #333333;
+  border: 1px solid #e5e5e5;
+}
+
+.container > .description {
+  background-color: #f2f6f8;
+}footer h2 {
+   background-color: #ee3643;
+   color: #ffffff;
+ }
+
+ .footer nav, .contacts {
+   background-color: #32425c;
+ }
+
+.container .footer > a {
+   background-color: #32425c;
+ }
+
+.footer .developed, .rights, .feedback, .socials  {
+   background-color: #293449;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

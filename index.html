@@ -13,6 +13,7 @@
         <a href="/" class="logo">
           Техномарт
         </a>
+        <span>Поиск</span>
         <input type="text" class="search">
         <div class="wrapper">
         <a href="#" class="link">Закладки:0</a>
@@ -27,11 +28,11 @@
           строительных материалов
           и инструментов для ремонта</p>
         <div class="wrapper">
-          <span class="phone"></span>
+          <span class="phone">+7 (812) 555-05-05</span>
           <span>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
         </div>
-        <a href="#">Войти</a>
-        <a href="#">Регистрация</a>
+        <a class="in" href="#">Войти</a>
+        <a class="register" href="#">Регистрация</a>
       </div>
       </div>
       <div class="container">
@@ -50,8 +51,8 @@
       <div class="container">
       <div class="categories">
         <div>
-          <a href="#" class="category new"></a>
-            <title class="title">Материалы</title>
+          <a href="#" class="category category_new"></a>
+            <span class="title">Материалы</span>
             <span class="description">На любой вкус</span>
         </div>
         <div>
@@ -78,7 +79,7 @@
               <span class="description">На 350 товаров</span>
             </a>
             <a href="#" class="category">
-              <span class="title">Доставка</span>
+              <h2 class="title">Доставка</h2>
               <span class="description">Бесплатно</span>
             </a>
         </div>
@@ -91,26 +92,26 @@
           <div class="item">
             <img class="img" src="img/item1.jpg" alt="">
             <span class="name">Перфоратор bosch bfg 9000</span>
-            <span class="price old">32500 Р.</span>
-            <span class="price">25500 Р.</span>
+            <span class="price_old">32500 Р.</span>
+            <span class="price_new">25500 Р.</span>
           </div>
-          <a class="item">
+          <div class="item">
             <img class="img" src="img/item2.jpg" alt="">
             <span class="name">Перфоратор bosch bfg 3000</span>
-            <span class="price old">22500 Р.</span>
-            <span class="price">15500 Р.</span>
-          </a>
-          <a class="item">
+            <span class="price_old">22500 Р.</span>
+            <span class="price_new">15500 Р.</span>
+          </div>
+          <div class="item">
             <img class="img" src="img/item3.jpg" alt="">
             <span class="name">Перфоратор bosch bfg 6000</span>
-            <span class="price old">30500 Р.</span>
-            <span class="price">25500 Р.</span>
-          </a>
-          <a class="item new">
+            <span class="price_old">30500 Р.</span>
+            <span class="price_new">25500 Р.</span>
+          </div>
+          <div class="item item_new">
             <img class="img" src="img/item4.jpg" alt="">
             <span class="name">Перфоратор bosch bfg 2000</span>
-            <span class="price">12500 Р.</span>
-          </a>
+            <span class="price_new">12500 Р.</span>
+          </div>
         </div>
       </section>
       <section class="section">
@@ -157,15 +158,15 @@
             <button class="button">Гарантия</button>
             <button class="button">Кредит</button>
           </div>
-          <div class="content">
-            <span class="title big">Доставка</span>
+          <div class="advantages">
+            <h2 class="title big">Доставка</h2>
             <p class="description">Мы с удовольствием доставим ваш товар прямо
               к вашему подъезду совершенно бесплатно!
               Ведь мы неплохо заработаем,
               поднимая его на ваш этаж!</p>
           </div>
-          <div class="content">
-            <title class="garantue">Гарантия</title>
+          <div class="advantages">
+            <h2 class="title big">Гарантия</h2>
             <p class="description">
               Если купленный у нас товар поломается или заискрит,
               а также в случае пожара, спровоцированного его возгаранием,
@@ -173,8 +174,8 @@
               сгоревший товар на новый.
               Дом уж восстановите как-нибудь сами.</p>
           </div>
-          <div class="content">
-            <span class="title big">Кредит</span>
+          <div class="advantages">
+            <h2 class="title big">Кредит</h2>
             <p class="description">
               Залезть в долговую яму стало проще!
               Кредитные консультанты придут вам на помощь.</p>
@@ -185,8 +186,8 @@
         </section>
       <section class="section">
         <div class="container">
-        <div class="content">
-          <span class="title">Компания Техномарт</span>
+        <div class="about">
+          <h2 class="title">Компания Техномарт</h2>
           <p class="description">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта
             и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
           <p class="description">Мы можем доставить ваш товар в самые отдаленные точки России!
@@ -199,7 +200,8 @@
           <a href="#" class="about">Подробнее о компании</a>
         </div>
         <div class="contacts">
-          <p class="discription">Вы можете забрать товар сами, заехав в наш офис</p>
+          <h2 class="contact">Контакты</h2>
+          <span class="discription">Вы можете забрать товар сами, заехав в наш офис</span>
           <img src="img/map.jpg" alt="карта" class="map">
           <button class="way">заблудились? напишите нам!</button>
         </div>
@@ -208,9 +210,7 @@
     </main>
     <footer class="footer">
       <div class="container">
-      <a href="/" class="logo">
-        Техномарт
-      </a>
+      <h2>Техномарт</h2>
       <nav class="nav">
         <a href="#" class="item">Компания</a>
         <a href="#" class="item">Новости</a>
@@ -219,14 +219,14 @@
         <a href="#" class="item">Контакты</a>
       </nav>
       <p class="contacts">
-        г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+        г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
         +7 (812) 555-05-55</p>
       <a href="#" class="category">Материалы</a>
       <a href="#" class="category">Техника</a>
       <a href="#" class="category">Инструмент</a>
       <a href="#" class="category">Спецпредложения</a>
-      <div class="rights">© 2010–2017 Компания «Техномарт»<br>Все права защищены
-      </div>
+        <span class="rights">© 2010–2017 Компания «Техномарт»</span>
+        <span>Все права защищены</span>
       <div class="socials">
         <a href="#" class="social">Вконтакте</a>
         <a href="#" class="social">Фейсбук</a>
