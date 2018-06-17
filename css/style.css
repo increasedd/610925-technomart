@@ -40,6 +40,14 @@ h3  {
   color: #e0e1e3;
 }
 
+.personal > .link, .wrapper_address {
+  color: #858e9b;
+}
+
+.personal > .link {
+  text-decoration: underline;
+}
+
 .green {
   background-color: #63a63e;
 }
@@ -52,6 +60,39 @@ h3  {
   background-color: #ee3643;
 }
 
+.categories > div:first-child {
+  background-color: #ffbf47;
+}
+
+.categories > div:nth-child(2) {
+  background-color: #3bbce3;
+}
+
+.categories > div:nth-child(3) {
+  background-color: #dc91d8;
+}
+
+.categories > div:nth-child(5) {
+  background-color: #8ed78f;
+}
+
+.categories > div:nth-child(6) {
+  background-color: #ffc047;
+}
+
+.categories > a {
+  height: 38px;
+  width: 130px;
+  border: 1px solid #e5ac40;
+  background-color: #e5ac40;
+}
+
+.popular > a {
+  background-color: #ee3643;
+  font-size: 14px;
+  color: #ffffff;
+}
+
 .content > p{
   color: #ee3643;
 }
@@ -61,12 +102,23 @@ h3  {
   border: 1px solid #eaeaea;
 }
 
+.item > .name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .phone {
   color: #e9292a;
 }
 
 .container nav {
   background-color: #32425c;
+}
+
+.about {
+  background-color: #ee3643;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 nav a {
@@ -140,22 +192,26 @@ nav a {
 
 .container > .description {
   background-color: #f2f6f8;
-}footer h2 {
+}
+
+footer h2 {
    background-color: #ee3643;
    color: #ffffff;
  }
 
- .footer nav, .contacts {
+ .category {
+   text-decoration: none;
+   color: #f3f6f8;
+ }
+
+ .footer {
    background-color: #32425c;
  }
 
-.container .footer > a {
-   background-color: #32425c;
- }
-
-.footer .developed, .rights, .feedback, .socials  {
+ .footer .container:last-child {
    background-color: #293449;
  }
+
 
 
 
